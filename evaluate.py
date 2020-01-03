@@ -15,3 +15,5 @@ def evaluate(string):
 
     eval_string = eval(eval_string)
     return eval_string
+
+print(evaluate("[2+{3+√(14+2)-1}-2]"))
